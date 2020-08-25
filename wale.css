@@ -1,0 +1,53 @@
+.navbarResponsive{
+    padding-left: 1rem;
+    color: green;
+}
+.web{
+    padding-left: 4rem;
+    color: green;
+}
+.btn{
+    background-color: green;
+    color:white;
+}
+.frontpage{
+height: 50%;
+width: 100%;
+}
+.trainers{
+    margin-left: 6rem;
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 100px;
+}
+.text-capitalize{
+    margin-inline-start: 4rem;
+}
+.social a {
+    font-size: 4.5em;
+    padding: 2rem;
+    
+    
+}
+    
+.prof{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#about{
+    background-color: rgb(20, 3, 51);
+    color:white;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+#contacts{
+    min-width: 100px;
+    min-height: 1000px;
+    background-color: rgb(20, 3, 51);
+    color:white;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 2rem;
+}
