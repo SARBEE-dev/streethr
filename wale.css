@@ -51,3 +51,12 @@ width: 100%;
     font-size: 1.3rem;
     padding: 2rem;
 }
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-stretch: wider;
+    font-size: xx-large;
+    color: rgb(2, 14, 51)
+  }
