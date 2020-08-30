@@ -22,9 +22,7 @@ width: 100%;
 }
 .social a {
     font-size: 4.5em;
-    padding: 2rem;
-    
-    
+    padding: 2rem; 
 }
     
 .prof{
@@ -49,7 +47,7 @@ width: 100%;
 }
 .centered {
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-stretch: wider;
