@@ -48,7 +48,7 @@ width: 100%;
 .centered {
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     font-stretch: wider;
     font-size: large;
@@ -58,7 +58,7 @@ width: 100%;
     background-color: rgb(2, 14, 51);
     color:white;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     font: arial;
