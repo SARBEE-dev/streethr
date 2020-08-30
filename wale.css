@@ -6,10 +6,6 @@
     padding-left: 4rem;
     color: green;
 }
-.btn{
-    background-color: green;
-    color:white;
-}
 .frontpage{
 height: 50%;
 width: 100%;
@@ -59,4 +55,13 @@ width: 100%;
     font-stretch: wider;
     font-size: xx-large;
     color: rgb(2, 14, 51)
+  }
+.btd{
+    background-color: rgb(2, 14, 51);
+    color:white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: arial;
   }
