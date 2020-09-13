@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<title>HR Hub Sign up form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<link href="wale.css" type="text/css" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<style>
+	body {
+    color:black;
+		background: greenyellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+	}
+ .form-control{
+		height: 41px;
+		background: #f2f2f2;
+		box-shadow: none !important;
+		border: none;
+	}
+	.form-control:focus{
+		background: #e2e2e2;
+	}
+    .form-control, .btn{        
+        border-radius: 3px;
+    }
+	.signup-form{
+		width: 390px;
+		margin: 30px auto;
+	}
+	.signup-form form{
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.signup-form h2 {
+		color: #333;
+		font-weight: bold;
+        margin-top: 0;
+    }
+    .signup-form hr {
+        margin: 0 -30px 20px;
+    }    
+	.signup-form .form-group{
+		margin-bottom: 20px;
+	}
+	.signup-form input[type="checkbox"]{
+		margin-top: 3px;
+	}
+	.signup-form .row div:first-child{
+		padding-right: 10px;
+	}
+	.signup-form .row div:last-child{
+		padding-left: 10px;
+	}
+    .signup-form .btn{        
+        font-size: 16px;
+        font-weight: bold;
+		background: #3598dc;
+		border: none;
+		min-width: 140px;
+    }
+	.signup-form .btn:hover, .signup-form .btn:focus{
+		background: #2389cd !important;
+        outline: none;
+	}
+    .signup-form a{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.signup-form a:hover{
+		text-decoration: none;
+	}
+	.signup-form form a{
+		color: #3598dc;
+		text-decoration: none;
+	}	
+	.signup-form form a:hover{
+		text-decoration: underline;
+	}
+    .signup-form .hint-text {
+		padding-bottom: 15px;
+		text-align: center;
+    }
+    .hint-text{
+      color: black;
+    }
+    #hint-text{
+      color: black;
+    }
+    #hint-tex{
+      color: black;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+    <h1 class="web">Street HR Hub</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+    data-target="#navbarResponsive">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class= "collapse navbar-collapse" id="navbarResponsive">
+        
+    <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+         <a class="nav-link" href="index.html"><strong>Home</strong></a>
+        </li>
+    <li class="nav-item">
+    <a class="nav-link" href="about.html"><strong>About</strong></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="courses.html"><strong>Activities</strong></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="trainers.html"><strong>Team</strong></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="HRrelated.html"><strong>HR Related Articles</strong></a>
+    </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contacts.html"><strong>Other Businesses</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html"><strong>Sign up/Sign in</strong></a>
+            </li>  
+    </ul>
+    </div>
+    </div>
+    </nav>
+  
+
+<div class="signup-form">
+    <form action="/examples/actions/confirmation.php" method="post">
+		<h2>Sign Up</h2>
+		<p>Please fill in this form to create an account!</p>
+		<hr>
+        <div class="form-group">
+			<div class="row">
+				<div class="col-xs-6"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+				<div class="col-xs-6"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+			</div>        	
+        </div>
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>        
+        <div class="form-group">
+			<label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+		</div>
+		<div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+        </div>
+    </form>
+	<div class="hint-text">Already have an account? <a href="login.html" id="hint-text">Login here</a></div>
+</div> 
+
+
+<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+<div class="row text-center padding">
+<div class= "col-sm-6 col-md-6 col-lg-12">
+<h2>connect</h2>
+<div class=" social padding">
+<a href="https://web.facebook.com/street.hr.hub"><img src ="./facebook.jpg"></a>
+<a href="https://twitter.com/streethrhub"><img src="./twitter.png"></a>
+<a href="https://instagram.com/street_hrhub"><img src="./instagram.png"></a>
+<a href="https://linkedin.com/company/street-hr-hub"><img src="./linkedin1.png"></a>
+<a href="https://youtube.com/company/street.hrhub"><img src="./youtube.jpeg"></a>
+
+
+</div>
+</div>
+</div>
+</div>    
+
+<br/>
+<br/>
+<footer id="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Street HR Hub</h3>
+          <p>
+            <strong>Lagos, Nigeria</strong> <br>
+            
+            <strong>Phone: 08174471038, 09019349409</strong> <br>
+            <strong>Email: street.hrhub@gmail.com</strong> <br>
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links" >
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="courses.html">Activities</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="trainers.html">Team</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="HRrelated.html">HR Related Articles</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="contacts.html">Other Businesses</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="signup.html">Sign up/Sign in</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Other Businesses</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">HR Events Video Coverage</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Branding and Promotion</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Corporate HR Research Assistance</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">HR Tech</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Join Our Newsletter</h4>
+          <p>Subscribe to our newsletter to enjoy our latest news</p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    
+    
+   <script src = "./js/jquery-3.5.1.min.js"></script>
+    <script src = "./js/bootstrap.bundle.min.js"></script> 
+        
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
